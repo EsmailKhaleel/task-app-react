@@ -9,8 +9,7 @@ const AddTaskSection = function(props){
                 onChange={props.onChange}
                 value={props.newTask}
             />
-            <button onClick={props.addTask}>ADD</button>
-            {/* <h1>{props.newTask}</h1> */}
+            <button onClick={props.addTask} className="add-task">ADD</button>
         </div>
     );
 }
